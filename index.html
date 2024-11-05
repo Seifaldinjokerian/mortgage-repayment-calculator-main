@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/css/framework.css">
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/css/styling.css">
+
+  <title>Frontend Mentor | Mortgage repayment calculator</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body class="grid-center">
+
+  <div class="container flex-btwn">
+    <div class="calcOperates">
+      <header class="flex-btwn">
+        <h3>Mortgage Calculator</h3>
+        <span id="clearAll">Clear All</span>
+      </header>
+      <main>
+        <div class="amount">
+          <div class="price">
+            <h4>Mortgage Amount</h4>
+            <div class="valueField">
+              <input type="number" name="amount" id="theValue">
+              <span>£</span>
+            </div>
+            <div class="error"><span>This field is required</span></div>
+          </div>
+          <div class="rateAndTerm">
+            <div class="term">
+              <h4>Mortgage Term</h4>
+              <div class="valueField">
+                <input type="number" name="term" id="theTerm">
+                <span>year</span>
+              </div>
+              <div class="error"><span>This field is required</span></div>
+            </div>
+            <div class="rate">
+              <h4>Interest Rate</h4>
+              <div class="valueField">
+                <input type="number" name="rate" id="theRate">
+                <span>%</span>
+              </div>
+              <div class="error"><span>This field is required</span></div>
+            </div>
+          </div>
+
+          <div class="types">
+            <h4>Mortgage Type</h4>
+            <div class="repayment">
+              <input type="radio" name="types" id="repay">
+              <label for="repay">Repayment</label>
+            </div>
+            <div class="interest">
+              <input type="radio" name="types" id="interest">
+              <label for="interest">Interest Only</label>
+              <div class="error"><span>This field is required</span></div>
+            </div>
+          </div>
+
+        </div>
+        <button id="calculate">Calculate Repayments</button>
+      </main>
+    </div>
+    <div class="results">
+      <img src="assets/images/illustration-empty.svg" alt="">
+      <h2>Results shown here</h2>
+      <p>Complete the form and click “calculate repayments” to see what
+        your monthly repayments would be.</p>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+    Coded by <a href="#">Seif Aldin</a>.
+  </div>
+  <script src="assets/js/logic.js"></script>
+</body>
+
+</html>
+
+<!--
+
+  Empty results start
+
+-->
+
+<!-- Empty results end -->
+
+<!-- Completed results start -->
+
+<!-- 
+
+
+
+
+
+-->
+
+<!-- Completed results end -->

@@ -1,0 +1,392 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --trans-time: 300ms;
+  --orange-color: #ff8e2a;
+  --green-color: #22c55e;
+  --blue-color: #0075ff;
+  --blue-alt-color: #0d69d5;
+  --red-color: #f44336;
+  --gray-color: #888;
+  --trans-time: 300ms;
+  --back-sec-clr: #0d2237;
+  --back-sec-clr-alt: #091827;
+  --bor-color: #0b1e31;
+}
+
+/* Start Box */
+.d-flex {
+  display: flex;
+}
+
+.align-start {
+  align-items: start;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.S-btwn {
+  justify-content: space-between;
+}
+
+.justi-end {
+  justify-content: end;
+}
+
+.d-block {
+  display: block;
+}
+
+/* End Box */
+/* Start Grid */
+.d-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-gap: 20px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+/* End Grid */
+/* Start paddings and Margins */
+.p-10 {
+  padding: 10px;
+}
+
+.p-15 {
+  padding: 15px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pl-10 {
+  padding-left: 10px;
+}
+
+.pl-20 {
+  padding-left: 20px;
+}
+
+.pl-30 {
+  padding-left: 30px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.p-side-10 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.p-side-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+.m-10 {
+  margin: 10px;
+}
+
+.m-15 {
+  margin: 15px;
+}
+
+.m-20 {
+  margin: 20px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.mt-5 {
+  margin-top: 5px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mt-25 {
+  margin-top: 25px;
+}
+
+.mt-30 {
+  margin-top: 30px;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.ml-20 {
+  margin-left: 20px;
+}
+
+/* End paddings and Margins */
+/* Start Colors and Backs */
+.bg-white {
+  background: white;
+}
+
+.bg-main {
+  background: #0d2237;
+}
+
+.bg-blue {
+  background: var(--blue-color);
+}
+
+.bg-green {
+  background: var(--green-color);
+}
+
+.bg-orange {
+  background: var(--orange-color);
+}
+
+.bg-eee {
+  background: #eee;
+}
+
+.bg-red {
+  background: var(--red-color);
+}
+
+.bg-alt-blue {
+  background: var(--blue-alt-color);
+}
+
+.bg-sec-main {
+  background: #112b44;
+}
+
+.bg-gray {
+  background: var(--gray-color);
+}
+
+.c-white {
+  color: white;
+}
+
+.c-black {
+  color: black;
+}
+
+.c-orange {
+  color: var(--orange-color);
+}
+
+.c-red {
+  color: var(--red-color);
+}
+
+.c-blue {
+  color: var(--blue-color);
+}
+
+.c-green {
+  color: var(--green-color);
+}
+
+.c-gray {
+  color: var(--gray-color);
+}
+
+.c-defualt {
+  color: white;
+}
+
+/* End Colors and Backs */
+/* Start Positions and Dimentions */
+.p-relative {
+  position: relative;
+}
+
+.p-absolute {
+  position: absolute;
+}
+
+/* End Positions and Dimentions */
+/* Start Widths & Heights */
+.w-full {
+  width: 100%;
+}
+
+.w-100 {
+  width: 100px;
+}
+
+.w-fit {
+  width: fit-content;
+}
+
+.h-100 {
+  height: 100px;
+}
+
+/* End Widths & Heights */
+/* Start Font and Texts */
+.t-align {
+  text-align: center;
+}
+
+.d-block {
+  display: block !important;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* End Font and Texts */
+/* Start Borders*/
+.rad-6 {
+  border-radius: 6px;
+}
+
+.rad-10 {
+  border-radius: 10px;
+}
+
+.rad-circle {
+  border-radius: 50%;
+}
+
+.bor-less {
+  border: none;
+}
+
+.border {
+  border: 1px solid #0b1e31;
+}
+
+.bor-b {
+  border-bottom: 1px solid #0b1e31;
+}
+
+.bor-block {
+  border-block-end: 1px solid #0b1e31;
+  border-block-start: 1px solid #0b1e31;
+}
+
+/* End Borders */
+/* Start Media Quaries */
+@media (max-width: 767px) {
+  .hide-mobile {
+    display: none;
+  }
+
+  .t-align-mobile {
+    text-align: center;
+  }
+
+  .block-mobile {
+    display: block;
+  }
+
+  .page .container {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 10px;
+  }
+}
+
+/* End Media Quaries */
+/* Start Components */
+.flex-btwn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-center {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-shape {
+  padding: 5px 10px;
+  background: var(--blue-alt-color);
+  font-weight: bold;
+  color: white;
+}
+
+.grid-center {
+  display: grid;
+  place-content: center;
+}
+
+/* End Components */
